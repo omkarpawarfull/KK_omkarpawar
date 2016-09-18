@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Kismat Konnect</string>
+    <string name="facebook_app_id">178101029235559</string>
+    <string name="custom_font">fonts/Comfortaa-Regular.ttf</string>
+    <string name="LOG_TAG">KK</string>
+
+
+    <string name="gender_interested">I am interested in...</string>
+    <string name="looking_for">Looking for</string>
+    <string name="looking_for_new_friend">new friend</string>
+    <string name="looking_for_casual_date">casual dating</string>
+    <string name="looking_for_soul_mate">soul mate</string>
+    <string name="looking_for_choose_one">Please select at least one</string>
+    <string name="profile_edit_warning">You can update this field from your profile</string>
+    <string name="profile_info_confirm">Confirm Profile</string>
+    <string name="profile_confirm_warning_height">Please set your height</string>
+    <string name="profile_confirm_warning_community">Please set your community</string>
+    <string name="profile_confirm_warning_religion">Please set your religion</string>
+    <string name="default_profile_height">0\' 0</string>
+    <string name="free_trial_no_thanks">No Thanks</string>
+    <string name="free_trial_title">FREE WEEK OF PREMIUM TRIAL</string>
+    <string name="free_trial_content">Upgrade to premium for free for 1 week!\nIvite 5 friends now to unlock\none week free membership</string>
+    <string name="free_trial_facebook_button">Facebook</string>
+    <string name="free_trial_email_button">Email</string>
+    <string name="free_trial_message_button">Message</string>
+    <string name="free_trial_invite_message_subject">Invite you to enjoy Kismat Konnect!</string>
+    <string name="free_trial_invite_message_body">Hello from Kismat Konnect.\n</string>
+    <string name="navigation_edit_profile">Edit Profile</string>
+    <string name="dashboard_my_matches_title">My Matches</string>
+    <string name="dashboard_tab_search">Search</string>
+    <string name="dashboard_tab_swipe">Quick Swipe</string>
+    <string name="dashboard_candidate_match">Match</string>
+
+
+    <string name="selector_height_selection_title">Height</string>
+    <string name="global_toolbar_menu_email_title">Invite</string>
+
+    <string name="global_toolbar_title_activity20_dashboard">Browse Matches</string>
+    <string name="settings_toolbar">Settings</string>
+    <string name="global_toolbar_menu">Global_Toolbar_Setting_Menu</string>
+
+</resources>

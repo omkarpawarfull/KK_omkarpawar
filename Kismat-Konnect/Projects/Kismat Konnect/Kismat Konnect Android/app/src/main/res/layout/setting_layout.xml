@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/Purple"
+    android:id="@+id/toolbar_setting">
+
+    <ImageView
+        android:id="@+id/imageButtonLeft"
+        android:src="@drawable/ic_dehaze"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="left"
+        android:onClick="onClick"
+        android:clickable="true"/>
+    // Here is the main code for  your Midle Buttons
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/global_toolbar_title"
+            android:text="@string/settings_toolbar"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true" />
+    </LinearLayout>
+    // Code for your Right Button
+    <ImageView
+        android:id="@+id/imageButtonRight"
+        android:src="@drawable/ic_mail_outline1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="right"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+
+</android.support.v7.widget.Toolbar>

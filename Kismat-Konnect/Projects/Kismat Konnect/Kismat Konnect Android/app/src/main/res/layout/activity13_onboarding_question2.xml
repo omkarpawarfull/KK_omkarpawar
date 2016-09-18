@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/activity13_question2_txtview_title"
+        android:layout_alignParentTop="true"
+        android:text="@string/app_name"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:textColor="@android:color/white"
+        android:background="@color/Purple"/>
+
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/activity13_question2_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/activity13_question2_avatar_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/avatar_add_photo"
+            app:civ_border_width="30dp"
+            app:civ_border_color="@android:color/white"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity13_question2_prgbar"
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/circular_progress_bar"
+            android:background="@drawable/circular_progress_background"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_centerInParent="true"
+            android:max="100"
+            android:progress="66"  />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity13_question2_txtview_look_for"
+        android:text="@string/looking_for"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/Purple"
+        android:layout_below="@+id/activity13_question2_avatar"
+        android:layout_marginTop="20dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity13_question2_txtview_look_for"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity13_question2_pair_new_friend"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+            <CheckBox
+                style="@style/look_for_types_checkbox"
+                android:id="@+id/activity13_question2_checkbox_new_friend"
+                android:button="@drawable/chkbox_selector_look_for_new_friend" />
+            <TextView
+                style="@style/look_for_types_text"
+                android:id="@+id/activity13_question2_txtview_look_for_new_friend"
+                android:text="@string/looking_for_new_friend" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity13_question2_pair_casual_date"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/activity13_question2_pair_new_friend"
+            android:layout_toLeftOf="@+id/activity13_question2_pair_soul_mate"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal">
+            <CheckBox
+                style="@style/look_for_types_checkbox"
+                android:id="@+id/activity13_question2_checkbox_casual_date"
+                android:button="@drawable/chkbox_selector_look_for_casual_date" />
+            <TextView
+                style="@style/look_for_types_text"
+                android:id="@+id/activity13_question2_txtview_look_for_casual_date"
+                android:text="@string/looking_for_casual_date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity13_question2_pair_soul_mate"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal" >
+            <CheckBox
+                style="@style/look_for_types_checkbox"
+                android:id="@+id/activity13_question2_checkbox_soul_mate"
+                android:button="@drawable/chkbox_selector_look_for_soul_mate" />
+            <TextView
+                style="@style/look_for_types_text"
+                android:id="@+id/activity13_question2_txtview_look_for_soul_mate"
+                android:text="@string/looking_for_soul_mate" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <ImageButton
+        style="@style/onboarding_back_btn"
+        android:id="@+id/activity13_quetions2_imgbtn_back" />
+
+    <ImageButton
+        style="@style/onboarding_next_btn"
+        android:id="@+id/activity13_quetions2_imgbtn_next"
+        android:backgroundTint="@color/Turquoise" />
+
+
+    
+    
+</RelativeLayout>

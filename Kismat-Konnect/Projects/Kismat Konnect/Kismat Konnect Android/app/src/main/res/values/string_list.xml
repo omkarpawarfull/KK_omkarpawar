@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="education_list">
+        <item>Any</item>
+        <item>Doctorate</item>
+        <item>Masters</item>
+        <item>Becholars</item>
+        <item>Associates</item>
+        <item>Trade School</item>
+        <item>High School</item>
+        <item>Below High School</item>
+    </string-array>
+    <string-array name="religion_list">
+        <item>Any</item>
+        <item>Hindu</item>
+        <item>Sikh</item>
+        <item>Jain</item>
+        <item>Muslim</item>
+        <item>Christian</item>
+        <item>Buddhist</item>
+        <item>Parsi</item>
+        <item>Jewish</item>
+        <item>Others</item>
+        <item>No Religion</item>
+    </string-array>
+    <string-array name="community_list">
+        <item>Agarwal</item>
+        <item>Arora</item>
+        <item>Assamese</item>
+        <item>Baniya</item>
+        <item>Bengali</item>
+        <item>Brahmin</item>
+        <item>Catholic</item>
+        <item>Christian</item>
+        <item>Gujarati</item>
+        <item>Gupta</item>
+        <item>Jatt</item>
+        <item>Kannada</item>
+        <item>Kayastha</item>
+        <item>Keshdhari</item>
+        <item>Khatri</item>
+        <item>Khoja</item>
+        <item>Labna</item>
+        <item>Malayalam</item>
+        <item>Mapila</item>
+        <item>Maratha</item>
+        <item>Marthoma</item>
+        <item>Marwari</item>
+        <item>Mapila</item>
+        <item>Maratha</item>
+        <item>Marthoma</item>
+        <item>Marwari</item>
+        <item>Memon</item>
+        <item>Odia</item>
+        <item>Other</item>
+        <item>Protestant</item>
+        <item>Punjabi</item>
+        <item>Rajput</item>
+        <item>Ramdasia</item>
+        <item>Ramgharia</item>
+        <item>Ravidasia</item>
+        <item>Saini</item>
+        <item>Shafi</item>
+        <item>Shia</item>
+        <item>Sindhi</item>
+        <item>Sunni</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Yadav</item>
+    </string-array>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="navigation_menu_title">
+        <item >Home</item>
+        <item >Messages</item>
+        <item >Match Preferences</item>
+        <item >Traits</item>
+        <item >Invite Friends</item>
+        <item >Weekly Reports</item>
+        <item >Kismat Store</item>
+        <item >Setting</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Icons -->
+    <array name="navigation_menu_icons">
+        <item>@drawable/navi_menu_1_home</item>
+        <item>@drawable/navi_menu_2_message</item>
+        <item>@drawable/navi_menu_3_preference</item>
+        <item>@drawable/navi_menu_4_trait</item>
+        <item>@drawable/navi_menu_5_invite</item>
+        <item>@drawable/navi_menu_6_report</item>
+        <item>@drawable/navi_menu_7_store</item>
+        <item>@drawable/navi_menu_8_setting</item>
+    </array>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@android:id/background" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="line">
+            <!--<size-->
+                <!--android:width="20dp" />-->
+            <stroke
+                android:width="3dp"
+                android:color="@color/Turquoise" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="line">
+                <!--<size-->
+                    <!--android:width="20dp" />-->
+                <stroke
+                    android:width="3dp"
+                    android:color="@color/Purple" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

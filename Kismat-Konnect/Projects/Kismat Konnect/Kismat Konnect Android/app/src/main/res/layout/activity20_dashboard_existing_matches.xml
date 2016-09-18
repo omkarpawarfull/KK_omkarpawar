@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity20_dashboard_existing_matches_title"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/dashboard_my_matches_title"
+        android:textColor="@color/Purple"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="none"
+        android:layout_marginBottom="5dp" >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity20_dashboard_existing_matches_hscrollview" >
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <View style="@style/profile_separator"></View>
+
+</LinearLayout>

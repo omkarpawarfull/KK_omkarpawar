@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/global_toolbar_menu_email"
+        android:icon="@drawable/invite_via_email"
+        android:title="@string/global_toolbar_menu_email_title"
+        app:showAsAction="always"
+        />
+
+</menu>

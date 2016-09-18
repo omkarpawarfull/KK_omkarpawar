@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="false"
+        android:weightSum="1">
+        <include layout="@layout/setting_layout"></include>
+
+        <TextView
+            android:text="NOTIFICATION SETTINGS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/setting_notification_settings"
+            android:textSize="20sp"
+            android:textColor="@color/Purple"
+            android:gravity="center"
+            android:layout_margin="10sp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+            >
+            <Space
+                android:layout_width="30sp"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/settings_daily_notification"
+                android:onClick="onClick"
+                android:text="Daily Alerts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textColor="@color/light_gray"
+                android:layout_weight="4"
+                android:checked="false"
+                tools:checked="false"
+                tools:contextClickable="false"
+                android:button="@drawable/ic_check_circle"
+                app:buttonTint="@color/light_gray"
+                />
+            <Space
+                android:layout_width="30sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+            >
+            <Space
+                android:layout_width="30sp"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/settings_weekly_reports_notification"
+                android:onClick="onClick"
+                android:text="Weekly Reports Notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textColor="@color/light_gray"
+                android:layout_weight="4"
+                android:checked="false"
+                tools:checked="false"
+                tools:contextClickable="false"
+                android:button="@drawable/ic_check_circle"
+                app:buttonTint="@color/light_gray" />
+            <Space
+                android:layout_width="30sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:text="THIRD PARTY ACCOUNTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/third_party_accounts"
+            android:textSize="20sp"
+            android:textColor="@color/Purple"
+            android:gravity="center"
+            android:layout_margin="10sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+            >
+            <Space
+                android:layout_width="30sp"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/settings_instagram_public"
+                android:onClick="onClick"
+                android:text="Instagram-Public"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textColor="@color/light_gray"
+                android:layout_weight="4"
+                android:checked="false"
+                tools:checked="false"
+                tools:contextClickable="false"
+                android:button="@drawable/ic_check_circle"
+                app:buttonTint="@color/light_gray" />
+            <Space
+                android:layout_width="30sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:text="LEGAL JARGON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_legal_jargon"
+            android:textSize="20sp"
+            android:textColor="@color/Purple"
+            android:gravity="center"
+            android:layout_margin="10sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+            >
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/settings_terms_conditions"
+                android:onClick="onClick"
+                android:text="Terms Conditions"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:backgroundTint="@color/Turquoise"
+                android:textColor="@color/white"
+                />
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+            >
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/settings_privacy_policy"
+                android:onClick="onClick"
+                android:text="Privacy Policy"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:backgroundTint="@color/Turquoise"
+                android:textColor="@color/white"
+                />
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:text="CONTACT US"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings_contact_us"
+            android:textSize="20sp"
+            android:textColor="@color/Purple"
+            android:gravity="center"
+            android:layout_margin="10sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+            >
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/settings_help_support"
+                android:onClick="onClick"
+                android:text="Help Support"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:backgroundTint="@color/Turquoise"
+                android:textColor="@color/white"
+                />
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+
+            >
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/settings_log_out"
+                android:onClick="onClick"
+                android:text="Log out"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:backgroundTint="@color/Turquoise"
+                android:textColor="@color/white"
+                />
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/settings_save"
+                android:onClick="onClick"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:backgroundTint="@color/Purple"
+                android:textColor="@color/white"
+                />
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250sp"
+            app:srcCompat="@mipmap/kk_op"
+            android:id="@+id/kk_info"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+            >
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/settings_disable_account"
+                android:onClick="onClick"
+                android:text="Disable Account"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:backgroundTint="@color/light_gray"
+                android:textColor="@color/white"
+                />
+            <Space
+                android:layout_width="10sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

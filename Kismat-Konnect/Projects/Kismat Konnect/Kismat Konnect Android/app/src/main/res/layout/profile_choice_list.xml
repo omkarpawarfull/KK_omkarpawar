@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/list_and_selector_title"
+        android:id="@+id/activity13_question3_choice_list_title" />
+
+    <ImageButton
+        style="@style/list_and_selector_backBtn"
+        android:id="@+id/activity13_question3_choice_list_btnBack" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/activity13_question3_choice_list_listview"
+        android:layout_below="@+id/activity13_question3_choice_list_title"
+        android:layout_alignParentBottom="true"
+        android:dividerHeight="0.5dp"
+        android:divider="@color/line_separator">
+
+    </ListView>
+
+
+</RelativeLayout>

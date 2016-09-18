@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/list_and_selector_title"
+        android:id="@+id/selector_height_selection_title"
+        android:text="@string/selector_height_selection_title" />
+
+    <ImageButton
+        style="@style/list_and_selector_backBtn"
+        android:id="@+id/selector_height_selection_btnBack" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selector_height_selection_display"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="5\' 2"
+            android:textSize="60dp"
+            android:textColor="@color/Purple"/>
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/selector_height_selection_seekbar"
+            android:layout_centerInParent="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:progressDrawable="@drawable/seekbar_single_button_progress"
+            android:thumb="@drawable/seekbar_single_button_thumb"
+            android:max="47"
+            android:progress="23"
+            android:rotation="270"/>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

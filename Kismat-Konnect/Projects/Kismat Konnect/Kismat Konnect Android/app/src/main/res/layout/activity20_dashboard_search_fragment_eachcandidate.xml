@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:id="@+id/activity20_dashboard_search_fragment_eachcandidate"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/activity20_dashboard_search_fragment_eachcandidate_pic"
+            android:scaleType="fitXY" />
+
+        //26. Town. St.
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity20_dashboard_search_fragment_eachcandidate_loction"
+            android:layout_alignLeft="@+id/activity20_dashboard_search_fragment_eachcandidate_pic"
+            android:layout_alignBottom="@+id/activity20_dashboard_search_fragment_eachcandidate_pic"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"  />
+
+        //"Match"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity20_dashboard_search_fragment_eachcandidate_match_sign"
+            android:layout_alignRight="@+id/activity20_dashboard_search_fragment_eachcandidate_pic"
+            android:layout_alignBottom="@+id/activity20_dashboard_search_fragment_eachcandidate_pic"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/dashboard_candidate_match"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        //John
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity20_dashboard_search_fragment_eachcandidate_name"
+            android:layout_alignLeft="@+id/activity20_dashboard_search_fragment_eachcandidate_pic"
+            android:layout_marginLeft="10dp"
+            android:layout_above="@+id/activity20_dashboard_search_fragment_eachcandidate_loction"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        //90%
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity20_dashboard_search_fragment_eachcandidate_percent"
+            android:layout_alignRight="@+id/activity20_dashboard_search_fragment_eachcandidate_pic"
+            android:layout_marginRight="10dp"
+            android:layout_above="@+id/activity20_dashboard_search_fragment_eachcandidate_match_sign"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+    //two button
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/activity20_dashboard_search_fragment_eachcandidate_buttons"
+        >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/activity20_dashboard_search_fragment_eachcandidate_dislike"
+            android:background="@android:color/white"
+            android:src="@drawable/dashboard_search_dislike_btn"
+            android:scaleType="centerInside"/>
+
+
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/activity20_dashboard_search_fragment_eachcandidate_like"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/toggle_dashboard_like_background"
+            android:checked="false"
+            android:textOn=""
+            android:textOff=""
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/line_separator"/>
+
+
+
+
+</LinearLayout>
+
